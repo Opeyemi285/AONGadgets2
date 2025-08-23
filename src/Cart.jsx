@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Cart.css';
+import IphoneLogo from 'src/assets/iphone13.svg'
+import SmartWatchLogo from 'src/assets/smartwatch.svg'
 
 function Cart() {
     const [cartItems, setCartItems] = useState([
@@ -9,14 +11,14 @@ function Cart() {
             name: 'IPhone 13', 
             price: 1500000, 
             quantity: 1, 
-            image: 'src/assets/iphone13.svg' 
+            image: {IphoneLogo}
         },
         { 
             id: 2, 
             name: 'Smart Watch Ultra', 
             price: 850000,
             quantity: 1, 
-            image: 'src/assets/smartwatch.svg' 
+            image: {SmartWatchLogo} 
         },
     ]);
 
