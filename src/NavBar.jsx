@@ -1,8 +1,6 @@
 import './NavBar.css'
 import AonLogo from './assets/aon-logo.png';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
-import Home from './Home.jsx'
-import Cart from './Cart.jsx'
 function Nav() {
     return(
         <>
