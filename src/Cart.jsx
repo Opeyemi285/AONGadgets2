@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Cart.css';
-import IphoneLogo from 'src/assets/iphone13.svg'
-import SmartWatchLogo from 'src/assets/smartwatch.svg'
+import IphoneLogo from './assets/iphone13.svg'
+import SmartWatchLogo from './assets/smartwatch.svg'
 
 function Cart() {
     const [cartItems, setCartItems] = useState([
