@@ -7,7 +7,7 @@ function Nav() {
         <>
             <nav>
                 <ul className="float-left">
-                    <li><Link to="/"><img src="./src/assets/aon-logo.png" width="200px" height="50px" alt="" /></Link></li>
+                    <li><Link to="/"><img src="\src\assets\aon-logo.png" width="200px" height="50px" alt="AONGadgets Logo" /></Link></li>
                     <li className="px-2 desktop"><input type="search" name="search" id="search" placeholder="Search..." /></li>
                     <li className="desktop"><Link to="/login.html"><i className="bi bi-person-circle"></i> Login</Link>/<Link to="/register.html">Register</Link></li>
                     <li className="desktop"><Link to="/favourite.html"><i className="bi bi-heart"></i></Link></li>
