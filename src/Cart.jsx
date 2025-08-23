@@ -11,14 +11,14 @@ function Cart() {
             name: 'IPhone 13', 
             price: 1500000, 
             quantity: 1, 
-            image: {IphoneLogo}
+            image: IphoneLogo
         },
         { 
             id: 2, 
             name: 'Smart Watch Ultra', 
             price: 850000,
             quantity: 1, 
-            image: {SmartWatchLogo} 
+            image: SmartWatchLogo
         },
     ]);
 
