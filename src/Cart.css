@@ -1,0 +1,43 @@
+ small.text-center {
+    display: block;
+}
+small.text-center a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+button.minus, button.plus {
+    background-color: rgba(72, 19, 121, 0.5);
+    color: white;
+    border: none;
+    width: 25px;
+}
+button.cancel-button {
+    background-color: transparent;
+    border: none;
+}
+.item-image {
+    height:90px;
+}
+.plus, .minus {
+    height: 30px;
+    border-radius: 5px;
+}
+input.quantity-input {
+    width: 30px;
+    text-align: center;
+    margin: 2px;
+    border-radius: 5px;
+    border: none;
+}
+tr.product {
+    height: 100px;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+@media (max-width: 700px) {
+    .item-name, .price, .subtotal {
+        font-size: .7rem;
+    }
+}

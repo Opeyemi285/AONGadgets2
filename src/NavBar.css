@@ -1,0 +1,47 @@
+:root {
+    --primary-color: rgb(72, 19, 121);
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Quicksand';
+}
+nav li {
+    list-style-type: none;
+}
+nav li.mobile {
+    display: none;
+}
+nav a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+nav a:hover {
+    color: black;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #f8f9fa;
+}
+nav input {
+    border-radius: 20px;
+    width: 50vw;
+    height: 40px;
+    border: 2px solid var(--primary-color);
+    padding: 10px;
+}
+nav input:focus {
+    outline: none;
+}
+@media (max-width: 700px) {
+    nav li.desktop {
+        display: none;
+    }
+    nav li.mobile{
+        display: block;
+    }
+}
