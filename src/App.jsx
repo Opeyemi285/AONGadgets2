@@ -10,9 +10,9 @@ function App() {
       <BrowserRouter>
         <Nav />
           <Routes>
-            <Route path='/' element={<Home />}></Route>
-            <Route path='/cart' element={<Cart />}></Route>
-          </Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/cart' element={<Cart />} />
+        </Routes>
       </BrowserRouter>
     </>
   )
